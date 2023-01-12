@@ -19,6 +19,9 @@
         $novaArray = array_merge($array1, $array2);
         print_r($novaArray);
 
+        echo "<pre> Imprimir en l'exercici 5 agrairia que indiquessis també la mida de l'array mesclat resultant </pre>";
+        echo sizeof($novaArray);
+
         echo "<pre>Imprimir la array valor a valor </pre>";
 
         foreach($novaArray as $novasArrays){
