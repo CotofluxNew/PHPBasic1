@@ -33,11 +33,12 @@
         echo "<br/>";
         echo "Per a totes les variables X, Y, N, M:<br/>";
         echo "<br/>";
-        echo "El doble de cada variable x2, y2, n2, m2 <br/> ";
-        echo "x * x = ".pow($x,2)."<br/>";
-        echo "y * y = ".pow($y,2)."<br/>";
-        echo "n * n = ".pow($n,2)."<br/>";
-        echo "m * m = ".pow($m,2)."<br/>";
+        echo "El doble de cada variable x, y, n, m <br/> ";
+        $duplicar = 2;
+        echo "2 * x = ".$duplicar*$x."<br/>";
+        echo "2 * y = ".$duplicar*$y."<br/>";
+        echo "2 * n = ".$duplicar*$n."<br/>";
+        echo "2 * m = ".$duplicar*$m."<br/>";
         echo "<br/>";
         echo "La suma de totes x, y, n, m <br/> ";
         echo "x + y + n + m = ".$x+$y+$n+$m."<br/>";
