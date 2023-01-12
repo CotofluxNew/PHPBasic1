@@ -14,10 +14,16 @@
         array_push($array2,4);
         echo "Imprimir la array con un cuarto miembro gracias a la array_push <br/>";
         print_r($array2);
-        
+
         echo "<pre>Imprimir la array con un cuarto miembro gracias a la array_push  </pre>";
         $novaArray = array_merge($array1, $array2);
         print_r($novaArray);
+
+        echo "<pre>Imprimir la array valor a valor </pre>";
+
+        foreach($novaArray as $novasArrays){
+            echo $novasArrays."\n";
+        }
 
     ?>
 </body>

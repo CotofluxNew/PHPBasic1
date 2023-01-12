@@ -8,8 +8,9 @@
 </head>
 <body>
     <?php
-        $meuNom = "Núria";
-        echo "<h1>Hola soc la ".$meuNom. "</h1>";
+
+        const meuNom = 'Nuria';
+        echo "<h1>Hola soc la ". meuNom . "</h1>";
     ?>
 </body>
 </html>
